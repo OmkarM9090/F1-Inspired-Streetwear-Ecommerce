@@ -1,0 +1,139 @@
+.home {
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #ffffff, #f4f4f4);
+  color: #111;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.dark-home {
+  background: linear-gradient(to bottom, #0c0c0c, #1b1b1b);
+  color: white;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px;
+}
+
+.view-cart-btn {
+  padding: 10px 20px;
+  background: crimson;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.view-cart-btn:hover {
+  background: darkred;
+}
+
+.hero-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.hero-section h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: crimson;
+}
+
+.hero-section p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dark-home .hero-section p {
+  color: #bbb;
+}
+
+.hero-section button {
+  background-color: crimson;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-section button:hover {
+  background-color: darkred;
+}
+
+.category-section {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.category-section h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+}
+
+.dark-home .category-section h2 {
+  color: white;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 24px;
+  padding: 0 10px;
+}
+
+.category-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  color: #111;
+  border: 2px solid transparent;
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  border-color: crimson;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(220, 20, 60, 0.2);
+  color: crimson;
+}
+
+.dark-home .category-card {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.dark-home .category-card:hover {
+  background-color: #2a2a2a;
+  color: crimson;
+  border-color: crimson;
+  box-shadow: 0 8px 24px rgba(220, 20, 60, 0.2);
+}
+
+
+.cat-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.coming-soon {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+}
